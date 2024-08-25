@@ -1,0 +1,340 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #000000;
+}
+
+a:hover {
+    animation: cheese-melt 1s ease-in-out;
+    text-shadow: 2px 2px 2px #fdbb1f;
+}
+
+@keyframes cheese-melt {
+    0% {
+        transform: none;
+      filter: blur(0px) drop-shadow(0px 0px 0px rgba(255,255,0,0)); /* No blur, no shadow */
+    }
+    25% {
+      transform: skewX(-5deg) translateY(2px);  /* Skew left, move down */
+      filter: blur(1px) drop-shadow(2px 2px 1px rgba(255,255,0,0.5)); /* Slight blur, yellow shadow */
+    }
+    50% {
+      transform: skewX(7deg) translateY(5px);  /* Skew right, move down more */
+      filter: blur(2px) drop-shadow(4px 4px 2px #fdbb1f); /* More blur, stronger yellow shadow */
+    }
+    75% {
+        transform: skewX(-3deg) translateY(7px); /* Slight skew left, move down further*/
+      filter: blur(1px) drop-shadow(2px 2px 1px rgba(255,255,0,0.5)); /* Reduce blur, weaker shadow */
+    }
+    100% {
+      transform: skewX(0deg) translateY(10px); /* Reset skew, move down completely */
+      filter: blur(0px) drop-shadow(0px 0px 0px rgba(255,255,0,0)); /* No blur, no shadow */
+    }
+}
+
+header {
+    width: 100%;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    background-color: white;
+    position: fixed;
+    height: 15%;
+}
+
+header nav {
+    display: flex;
+    justify-content: start;
+}
+
+.mIconHome {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 25px;
+    margin-left: 150px;
+}
+
+header nav .mainSection {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    list-style: none;
+    margin-top: -40px;
+    margin-left: 200px;
+}
+
+.fiftyyears {
+    width: 4%;
+    height: 4%;
+}
+
+nav .mainSection a {
+    margin-right: 20px;
+    color: #000000;
+}
+
+header nav .secondSection {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    list-style: none;
+    margin-top: -5px;
+    margin-left: 200px;
+}
+
+nav .secondSection a {
+    margin-right: 50px;
+    color: #000000;
+}
+
+nav .thirdSection {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-decoration: none;
+    list-style: none;
+}
+
+.buttonDos {
+    background-color: #fdbb1f;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    padding: 7px 40px;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
+.li-align-right {
+    margin-bottom: 100px;
+    margin-left: -190px;
+}
+
+.papas {
+    margin-right: 10px;
+    margin-bottom: -9px;
+}
+
+.twoli-align-right {
+    margin-left: 50px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.firstimage {
+    margin-top: 170px;
+    width: 1210px;
+    height: 430px;
+}
+
+.secondimage {
+    margin-top: 50px;
+    width: 1210px;
+    height: 430px;
+}
+
+.twoOptionsToOrder {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.firstChat {
+    background-color: rgb(243 244 246);
+    width: 590px;
+    height: 750px;
+    margin-left: -90px;
+    margin-right: 25px;
+    display: list-item;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+}
+
+.secondProgramar {
+    background-color: rgb(243 244 246);
+    width: 590px;
+    height: 750px;
+    margin-right: -90px;
+    display: list-item;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+}
+
+.titulos {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.parrafos {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 15px;
+    font-weight: -100%;
+}
+
+.button {
+    background-color: #fdbb1f;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    padding: 12px 40px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+button:hover {
+    animation: cheese-melt 1s ease-in-out;
+    text-shadow: 2px 2px 2px #fdbb1f;
+}
+
+@keyframes cheese-melt {
+    0% {
+        transform: none;
+      filter: blur(0px) drop-shadow(0px 0px 0px rgba(255,255,0,0)); /* No blur, no shadow */
+    }
+    25% {
+      transform: skewX(-5deg) translateY(2px);  /* Skew left, move down */
+      filter: blur(1px) drop-shadow(2px 2px 1px rgba(255,255,0,0.5)); /* Slight blur, yellow shadow */
+    }
+    50% {
+      transform: skewX(7deg) translateY(5px);  /* Skew right, move down more */
+      filter: blur(2px) drop-shadow(4px 4px 2px #fdbb1f); /* More blur, stronger yellow shadow */
+    }
+    75% {
+        transform: skewX(-3deg) translateY(7px); /* Slight skew left, move down further*/
+      filter: blur(1px) drop-shadow(2px 2px 1px rgba(255,255,0,0.5)); /* Reduce blur, weaker shadow */
+    }
+    100% {
+      transform: skewX(0deg) translateY(10px); /* Reset skew, move down completely */
+      filter: blur(0px) drop-shadow(0px 0px 0px rgba(255,255,0,0)); /* No blur, no shadow */
+    }
+}
+
+section .cajitaFeliz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 1210px;
+    height: 430px;
+    margin-left: 155px;
+}
+
+.contactsection {
+    background-color: rgb(220 38 38);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1210px;
+    height: 350px;
+    margin-left: 153px;
+}
+
+.classfortext {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 700px;
+    margin-left: 150px;
+    margin-bottom: 130px;
+    color: aliceblue;
+    padding-top: 30px;
+    font-weight: bolder;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 200px;
+    margin-top: 70px;
+    margin-bottom: -200px;
+}
+
+.icon-right {
+    margin-right: 150px;
+    margin-bottom: -200px;
+    color: white;
+}
+
+.App {
+    margin-top: -16px;
+}
+
+.mcIconDos {
+    margin-top: -180px;
+    width: 25%;
+    height: 25%;
+    margin-left: 110px;
+}
+
+.footer-container {
+    border-top: solid 1px rgb(220, 220, 220);
+    width: 78%;
+    margin-left: 160px;
+}
+
+.imagemesoamericaicon {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.parrafomesoamerica {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    list-style: none;
+    margin-top: -40px;
+    margin-left: 70px;
+    color: #000000;
+}
+
+.footer-leftDos {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    list-style: none;
+    margin-top: 50px;
+    margin-left: -25px;
+    color: #000000;
+    font-weight: bolder;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    list-style: none;
+    margin-top: -60px;
+}
+
+.list {
+    margin-right: 30px;
+    border-right: solid black;
+    padding-right: 10px;
+}
+
+.lista {
+    margin-right: 10px;
+}
+
+.lastpart {
+    margin-top: 50px;
+    margin-left: 175px;
+}
